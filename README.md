@@ -1,3 +1,8 @@
+# My Notes
+The root page of the app has an input box on it (within a form of course).
+The user types in the item they want and clicks add to cart.
+The item is added to their cart. The page shows everything in the user's cart.
+
 # Cookies and Sessions Lab
 
 ## Objective
