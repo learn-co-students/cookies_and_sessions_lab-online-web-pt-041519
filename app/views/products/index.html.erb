@@ -1,0 +1,10 @@
+<%= form_tag products_path do %>
+  <label>Product</label>
+  <%= text_field_tag :product %>
+
+  <%= submit_tag value="add to cart" %>
+  <%end%>
+
+  <% cart.each do |product| %>
+  <%= product %>
+  <% end %>
