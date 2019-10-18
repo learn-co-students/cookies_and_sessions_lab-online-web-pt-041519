@@ -1,6 +1,6 @@
 <h3>Items in cart:</h3>
-<% @items.each do |item| %>
-    <p><%= item %></p>
+<% cart.each do |item| %>
+    <%= item %>
 <% end %><br>
 
 <%= form_tag('/add') do %>
